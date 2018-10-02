@@ -40,6 +40,7 @@ figure:nth-child(2) {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
+  transition: 150ms linear;
 }
 
 .polaroid > img {
@@ -54,5 +55,7 @@ figure:nth-child(2) {
 }
 
 .polaroid:hover {
-
+  transform: rotate(0deg);
+  z-index: 0;
+  box-shadow: 5px 4px 6px rgba(0, 0, 0, .5);
 }
